@@ -34,7 +34,7 @@ function saltar() {}
 //FUNCTION EXPRESSION.  
 // es asignarle a una "variable" una function. ej.
 let Ladra = function() {};
-let comida = function () {};
+const comida = function () {};
 var meGusta = function() {};
 // se debe terminar una FUNCTION EXPRESSION con ;
 
@@ -49,3 +49,20 @@ var meGusta = function() {};
 const Ladrar = function() {
     console.log("Guau! Guau! 🐶")
 };
+
+
+//ARROW FUNCTION. manera mas limpia y corta de escribir funciones.
+//no se usa la keyword "function"
+//en caso de un solo "return" o "console.log" se pueden quitar los {}
+//se escribe el nombre que se le quiere dar, seguido de = segudo de  () y ARROW '=>' resultado. 
+//ej. fuction "imprimeString" y function "saludo" en estilo ARROW:
+imprimeString1 = (string) => string;
+
+saludo1 = (nombre) => "hola, " + nombre + " ¿como te va?";
+
+//cuando se tiene un solo "parametro" se pueden eliminar los ():
+imprimeString1 = string => string;
+
+saludo1 = nombre => "hola, " + nombre + " ¿como te va?";
+
+//en caso de mas de un "parametro" SI se necesitan los ()

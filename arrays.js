@@ -1,4 +1,7 @@
 
+// Data type de una function = Object
+
+
 //arreglo vacio
 let a = [];
     console.log(a);
