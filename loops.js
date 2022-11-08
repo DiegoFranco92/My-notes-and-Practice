@@ -32,13 +32,13 @@ i++ // Incremento. si deseas que tu incremento sea por mas de 1. cambiar "i++" p
 
  var suma = 0;
 
- for(var i = 1; i< 11; i++) {
+ for(var i = 1; i < 11; i++) {
     suma += i;
  }
  console.log("El total es :" + suma);
  // resultado esperado = El Total es : 55
 
- //LOOPs de ARRAYS
+ //LOOPs FOR de ARRAYS
  //En caso de querer imprimir los elementos de un array. podemos unas un "for loop":
  var frutas = ["piña", "melon", "sandia", "manzana"] //es el array
 
@@ -47,5 +47,6 @@ i++ // Incremento. si deseas que tu incremento sea por mas de 1. cambiar "i++" p
  }
 
  //LOOPS DE OBJETO
+ 
 
 

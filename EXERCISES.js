@@ -10,6 +10,8 @@ function ej1(a,b){
 
 
 
+////////
+
 
 //PRACTICE MAKING ARRAYS
 
@@ -22,22 +24,32 @@ nombres[0];
 let mascotas = ["Nina", "Suri", "Pepita"]
     mascotas.push("michi"); 
 
-
-
-
-
-
-
-//PRACTICE LOOPS:
-
-//create a loop that counts from 1 to 100
-for (let i = 0; i<= 100; i++) {
-    console.log(i)
-}
-
 // Create and array of "to do list" and print the array items:
 
 let toDoList = ["shower", "clean", "exercise", "study"];
 
     for(let i = 0; i< toDoList.length; i++)
     console.log(toDoList[i])
+
+
+
+////////////
+
+
+
+//PRACTICE LOOPS:
+
+//create a loop that counts from 1 to 100: WORKING
+for (let i = 0; i<= 100; i++) {
+    console.log(i)
+}
+
+// loop for multiples of 9: WORKING
+for (let i = 9; i<= 90; i++) {  
+    if (i % 9 ===0)
+        console.log(i)
+}
+
+//crea una funcion que reciba un numero y imprima su tabla del 10: NOT FINISHED
+
+function multiplos(num) 
