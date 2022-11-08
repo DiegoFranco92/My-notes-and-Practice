@@ -49,27 +49,3 @@ i++ // Incremento. si deseas que tu incremento sea por mas de 1. cambiar "i++" p
  //LOOPS DE OBJETO
 
 
-
-
-
-
-
-
-
-
-
-
-
-//PRACTICE LOOPS:
-
-//create a loop that counts from 1 to 100
-for (let i = 0; i<= 100; i++) {
-    console.log(i)
-}
-
-// Create and array of "to do list" and print the array items:
-
-let toDoList = ["shower", "clean", "exercise", "study"];
-
-    for(let i = 0; i< toDoList.length; i++)
-    console.log(toDoList[i])

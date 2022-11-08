@@ -38,24 +38,3 @@ let c = ["a", "b", "c", [1, 2, 3]];
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-//PRACTICE MAKING ARRAYS
-
-let nombres = ["Diego", "Fabio", "Daniel", "Toño",]
-//print Diego
-nombres[0];
-
-
-//add a pet
-let mascotas = ["Nina", "Suri", "Pepita"]
-    mascotas.push("michi"); 
