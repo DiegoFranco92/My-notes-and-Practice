@@ -55,6 +55,7 @@ const Ladrar = function() {
 //no se usa la keyword "function"
 //en caso de un solo "return" o "console.log" se pueden quitar los {}
 //se escribe el nombre que se le quiere dar, seguido de = segudo de  () y ARROW '=>' resultado. 
+
 //ej. fuction "imprimeString" y function "saludo" en estilo ARROW:
 imprimeString1 = (string) => string;
 
@@ -66,3 +67,38 @@ imprimeString1 = string => string;
 saludo1 = nombre => "hola, " + nombre + " ¿como te va?";
 
 //en caso de mas de un "parametro" SI se necesitan los ()
+
+//CALLBACK FUNCTIONS
+//estas son "funciones" que se pasan como "argumento" de otra funcion.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//PRACTICE:
+
+//Find wally Function:
+nombres = ["Diego", "Fabio", "Nina", "Wally", "Jesus"]
+
+function buscandoAWally (nombres) {
+   
+}
+
+
+//check two numbers and return true if one of the numbers is 100 or if the sum of both = 100:
+function ej1(a,b){
+    if (a === 100 || b === 100 || a + b === 100)
+    return true;
+    else return false;
+}
+
