@@ -36,3 +36,19 @@ let result = email.lastIndexOf("m"); // its going to give me the last "M" in the
 let result1 = email.slice(0,5); //cut or slices the selected indexes, in this case 0 to 5 will print diego.
 
 let result3 = email.replace("d", "b"); // replace one caracter with another
+
+
+//TEMPLATE STRINGS or TEMPLATE LITERALS.  uses ` `
+// better way to concatenate variables.
+let title = "best reads of 2020";
+let author = "Mario";
+let likes = 30;
+
+    let blog = `the blog called ${title} ny ${author} has ${likes} likes`;  
+    
+// creating HTML with templates
+let html = `
+    <h2>${title}</h2>
+    <p>By ${author}</p>
+    <span> This blog has ${likes}</span>
+`;

@@ -1,7 +1,7 @@
 
-// Data type of an array = Object
+// Data type of an array = OBJECT
 //the ARRAY are objects that contain multiples items under the same "variable" name. 
-// you can put, take itemsof diferent types at any moment.
+// you can put, take items of diferent types at any moment.
 //ARRAYS are created with a "variable" then the name of the ARRAY,  then the "=" and "[]"
 
 //empty array
@@ -36,5 +36,8 @@ let c = ["a", "b", "c", [1, 2, 3]];
 //agrega un elementos al inicio del array c:
     c.unshift("inicio"); 
 
-
+// If we want to overright an array item we use the =
+let nombres = ["Diego", "Fabio", "Jesus"]
+// lets overight "Jesus"
+nombres[2] = "Pepe";
 
