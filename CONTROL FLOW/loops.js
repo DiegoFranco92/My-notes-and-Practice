@@ -1,14 +1,18 @@
 
+//TYPE OF CONTROL FLOW 
 //los LOOPS se usan para repetir la misma accion muchas veces.
 //Hay multiples tipos de "LOOPS"
 // for , for..of, for..in, while, do..while, map, forEach.
 
+//Cicling throw the data is defined as ITERATION
 
-//construcción Basica de un FOR LOOP
+//FOR loop
+//Basic sintax 
 for(let i = 0; i < 5; i++) {
     console.log("loop");
 }
 //se espera como resultado "loop" 5 veces.
+
 
 //usemos FOR loop para contar del 0 al 15:
 for(let i = 0; i<= 15; i++) {
@@ -40,12 +44,31 @@ i++ // Incremento. si deseas que tu incremento sea por mas de 1. cambiar "i++" p
 
  //LOOPs FOR de ARRAYS
  //En caso de querer imprimir los elementos de un array. podemos unas un "for loop":
- var frutas = ["piña", "melon", "sandia", "manzana"] //es el array
+ var frutas = ["piña", "melon", "sandia", "manzana", "naranja", "papaya"] //es el array
 
  for(let i = 0; i<frutas.length; i++) {
     console.log(frutas[i])
  }
 
+ 
+ // WHILE LOOP
+ // Syntax
+ while (condition) {
+    //code block
+    // increment
+ }
+ 
+ // the starter, condition and increment are in diferente potitions in the code
+
+ let i = 0; // we defined the starter OUTSIDE the code
+ while (i < 5) {  // we add ONLY the condition in the ()
+    console.log("in loop: ", i);
+    i++; // we add the increment in the code block.
+ }
+ 
+ 
+ 
+ 
  //LOOPS DE OBJETO
  
 

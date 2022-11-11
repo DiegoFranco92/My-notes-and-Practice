@@ -105,14 +105,14 @@ for (const elem in invitados) {
   //definir funcion ideas(array) {}
 
   function ideas(Array) {
-    if(!(Array.includes("buena")))
-        return("Fail!");
-    if(Array.filter(Array => Array.includes("buena") >=3))   ///no sirve
-        return("Jackpot!");
-    if(Array.includes("buena"))
-        return("Activa!");  
+    if(!(Array.includes("buena"))){
+        return("Fail!")};
+    if(Array.filter(Array => Array.includes("buena") >=3)){   
+        return("Jackpot!")};
+    if(Array.includes("buena")){
+        return("Activa!")};  
      
-  }
+  };
 
   
 

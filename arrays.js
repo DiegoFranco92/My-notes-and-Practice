@@ -36,8 +36,15 @@ let c = ["a", "b", "c", [1, 2, 3]];
 //agrega un elementos al inicio del array c:
     c.unshift("inicio"); 
 
-// If we want to overright an array item we use the =
-let nombres = ["Diego", "Fabio", "Jesus"]
+// If we want to overight an array item we use the =
+let nombres = ["Diego", "Fabio", "Jesus"];
 // lets overight "Jesus"
 nombres[2] = "Pepe";
+
+//ARRAY METHODS.
+
+nombres.join(',');  //will separate with a ,  the strings 
+nombres.indexOf("Diego"); // will print the index (number) of "Diego" in the array. 0 in this case.
+let nuevosNombres = nombres.concat(["Miguel", "Nina"]); //.concat adds element to the array with a new variable name
+
 
