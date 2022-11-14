@@ -108,8 +108,8 @@ for (const elem in invitados) {
     if(!(Array.includes("buena"))){
         return("Fail!")};
     if(Array.filter(Array => Array.includes("buena") >=3)){   
-        return("Jackpot!")};
-    if(Array.includes("buena")){
+        return("Jackpot!")}
+    else if(Array.includes("buena")){
         return("Activa!")};  
      
   };
