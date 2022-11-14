@@ -17,7 +17,7 @@ console.log(User);
  // let User ={}  -- this is how we name the new object
  // name: age: location: email: hobbies: //are the "properties" of this User object known as "KEYs".
  // name:  = KEY
- // "Diego" = value
+ // "Diego" = VALUE
  // the "value" of this properties is defined with ":" then the value.
 
 //Use "dot notation" to access the properties. ex:

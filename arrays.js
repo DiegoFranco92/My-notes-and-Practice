@@ -48,3 +48,20 @@ nombres.indexOf("Diego"); // will print the index (number) of "Diego" in the arr
 let nuevosNombres = nombres.concat(["Miguel", "Nina"]); //.concat adds element to the array with a new variable name
 
 
+//FOR EACH method
+// It is a method that iterates over an array 
+// it expect as an argument a Callback function
+
+let people = ["Diego", "Fabio", "Nina", "Suri", "Miguel", "jesus"];
+
+people.forEach((person,index) => {
+    console.log(index, person);
+});
+
+// we can define the callback function outside the forEach method. like so:
+//callback function name "LogPerson"
+const LogPerson = (person,index) => {
+    console.log(index + ' Hello ' + person);
+};
+
+people.forEach(LogPerson); //calling the fuction

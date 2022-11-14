@@ -69,8 +69,21 @@ saludo1 = nombre => "hola, " + nombre + " ¿como te va?";
 //en caso de mas de un "parametro" SI se necesitan los ()
 
 //CALLBACK FUNCTIONS
-//estas son "funciones" que se pasan como "argumento" de otra funcion.
+//is a function passed as an argument to another function
+//this technique allows a function to call another fuction 
+let people = ["Diego", "Fabio", "Nina", "Suri", "Miguel", "jesus"];
 
+people.forEach((person,index) => { //.forEach is a build-in callback function
+    console.log(index, person);
+});
+
+// we can DEFINE the callback function outside the forEach method. like so:
+//callback function name "LogPerson"
+const LogPerson = (person,index) => {
+    console.log(index + ' Hello ' + person);
+};
+
+people.forEach(LogPerson); //calling the fuction as callback
 
 
 
