@@ -34,6 +34,6 @@ let User2 = {
     location: "Mexico",
     email: "megan.mex@gmail.com",
     login: function () {
-        console.log("the user logged in");
+        console.log("the user logged in"); // THIS is the method inside the object. in this case a log in function.
     }
 }
