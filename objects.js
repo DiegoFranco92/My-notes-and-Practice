@@ -4,14 +4,15 @@
 
 //object literals Notations:
 
-let User = {
-    name: "Diego",
-    age: 29,
+let User2 = {
+    name: "Megan",
+    age: 25,
     location: "Mexico",
-    email: "diegofranco.daft@gmail.com",
-    hobbies: "gym and box"
+    email: "megan.mex@gmail.com",
+    login: function () {
+        console.log("the user logged in"); // THIS is the method inside the object. in this case a log in function.
+    }
 }
-console.log(User);
 
 //Anatomy of this Object:
  // let User ={}  -- this is how we name the new object
@@ -28,12 +29,28 @@ User.age = 30; // will change the age from 29 to 30
 
 //HOW TO ADD METHODS TO THE OBJECTS.
 // We do it the same way. we add a "KEY" and the value is going to be a "function" ex.
-let User2 = {
-    name: "Megan",
-    age: 25,
+
+
+let User = {
+    name: "Diego",
+    age: 29,
     location: "Mexico",
-    email: "megan.mex@gmail.com",
-    login: function () {
-        console.log("the user logged in"); // THIS is the method inside the object. in this case a log in function.
+    email: "diegofranco.daft@gmail.com",
+    favbooks: ["extreme ownership", "deep work"],
+    hobbies: "gym and box",
+    login: function() {
+        console.log('the user logeed in');
+    },
+    logBooks: function(){
+        console.log('My favorite books are:');
+        this.favbooks.forEach(favbook => {
+            console.log(favbook);
+        })
     }
 }
+User.logBooks();
+
+
+//Math Object
+// MATH is a built-in object that has properties and methids for mathematical constants and functions
+// console.log(Math);  to see all the methods of Math
