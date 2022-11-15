@@ -7,7 +7,7 @@
 
 
 // objects and everything else is pass by reference
- c = c + 1; // is now pass by reference
+ //c = c + 1; // is now pass by reference
 
 
  //examples
