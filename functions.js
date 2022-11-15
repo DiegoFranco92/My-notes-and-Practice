@@ -40,7 +40,7 @@ var meGusta = function() {};
 
 
 //Diferencias entre FUNCTION DECLARATION vs FUNCTION EXPRESSION.
-// su ejecucion se cumple de la misma manera. la diferencia es el  fenomeno HOISTED
+// su ejecucion se cumple de la misma manera. la diferencia es el  fenomeno HOISTING
 //las FUNCTION DECLARATION tienen HOISTED, significa que al momento de declararlas. su codigo se ejecuta desde el inicio (se va hasta arriba) (HOSTED = Levantar, ALZAR)
 //FUNCTION EXPRESSIONs. Se ejecutaran solo para declaraciones despues de su creacion.
 //Se considera mejor practica usar FUNCTION EXPRESSIONS. para no causar resultados no deseados en el futuro de tu codigo.

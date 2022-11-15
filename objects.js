@@ -53,4 +53,10 @@ User.logBooks();
 
 //Math Object
 // MATH is a built-in object that has properties and methids for mathematical constants and functions
-// console.log(Math);  to see all the methods of Math
+// console.log(Math);  to see all the methods of Math ex:
+const area = 7.8;
+
+console.log(Math.round(area));
+console.log(Math.floor(area));
+console.log(Math.ceil(area));
+console.log(Math.trunc(area));
