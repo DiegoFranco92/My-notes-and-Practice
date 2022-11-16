@@ -1,6 +1,10 @@
 //Pass by Value, Pass by reference
 // primitive type are pass by value 
 
+//PRIMITIVES: number, string, boolean, symbol, undefined, null
+
+// Reference type: Object, Function, Array
+
 // let a = 10;  //pass by value
 // let b = "b"; // pass by value
 // let c = a; // pass by value
