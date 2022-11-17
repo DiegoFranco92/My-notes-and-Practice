@@ -86,3 +86,21 @@ function onlyNumbers(arr) {
 console.log(onlyNumbers(array));
 
 //  Wich outputs [ 1 , 2 , 3 ]
+
+
+
+
+////Funcion return longest string: 
+strings = ["Diego","Fabio","panfilofrancisco","jesus","miguel","panfilofranciscosegundo"];
+
+function stringMasLarga(strings) {
+    longestWord = ""; //empty string to output.
+    strings.forEach(function(word){
+        if (word.length > longestWord.length) {
+            longestWord = word;
+        }
+    });
+    return longestWord;    
+}
+
+console.log(stringMasLarga(strings));
