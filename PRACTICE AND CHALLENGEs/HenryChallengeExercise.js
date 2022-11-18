@@ -120,11 +120,19 @@ for (const elem in invitados) {
 
   /////////////////////
 
-//  function fakeBinary(size) {}
-    // La funcion llamada 'fakeBinary' recibe como argumento size(tamaño) que es un numero (entero)
-    // y debe devolver un string de 1s y 0s con el tamaño indicado.
-    // siempre empieza por 1
-    // Por ej:
-    // fakeBinary(10) devuelve "1010101010"
-    // fakeBinary(3) devuelve "101"
-    // Tu código aca:
+//create constructor class "crearClasePersona"
+
+function crearClasePersona() {
+    class Persona {
+        constructor(nombre,edad,hobbies,amigos) {
+            this.nombre = nombre || "Diego";
+            this.edad = edad || 29;
+            this.hobbies = hobbies || ["box", "gym"];
+            this.amigos = amigos || [amigos = {nombre: "jorge", edad: 30}, {nombre: "Toño", edad:29}]
+        }
+        
+
+
+
+    };
+}
