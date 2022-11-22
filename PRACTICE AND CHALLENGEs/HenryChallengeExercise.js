@@ -131,6 +131,7 @@ function crearClasePersona() {
             this.amigos = amigos || [amigos = {nombre: "jorge", edad: 30}, {nombre: "Toño", edad:29}]
         }
         
+        
 
 
 
