@@ -1,0 +1,6 @@
+/* THIS is the best way to do CSS in a separate file*/
+/* we use la "link" tag inside our HTML file to conect the files (check CSS introduction file) */
+
+h2 {
+  color: green;  
+}
