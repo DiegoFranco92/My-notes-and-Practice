@@ -5,3 +5,17 @@ body{
 h1,li,ul,p {
     color: white;
 }
+
+li {
+    padding: 1em;
+}
+
+h1 {
+    padding: .3em;
+}
+
+p {
+    padding: .2em;
+    font-size: large;
+    font-weight: bold;
+}
