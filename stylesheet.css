@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(56, 56, 56);   
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 h1,li,ul,p {
-    color: rgb(223, 223, 223);
+    color: rgb(228, 227, 227);
 }
 
 li {
@@ -16,6 +16,7 @@ h1 {
     font-size: 1cm;
     padding-top: .5em;
     padding-bottom: 0;
+    padding-left: .3em;
 }
 
 p {
