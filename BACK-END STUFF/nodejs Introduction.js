@@ -26,4 +26,4 @@ global.setTimeout
 
 //MODULES
 //every file in a NODE application, is consider a module
-// all the variables and functions defined in this module or file, is scoped to this file only
+//all the variables and functions defined in this module or file, is scoped to this file only
