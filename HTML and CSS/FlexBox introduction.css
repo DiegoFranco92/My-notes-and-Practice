@@ -1,1 +1,8 @@
-/*
+/*   */
+
+* {
+    display: flex; /* this converts the element into a frecible box or flexible container */
+    display: block;
+}
+
+

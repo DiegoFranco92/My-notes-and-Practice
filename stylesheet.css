@@ -12,23 +12,30 @@ li {
     font-size: 1em;
 }
 
+
 h1 {
     font-weight: bold;
     font-size: 1cm;
-    padding-top: .5em;
-    padding-bottom: 0;
-    padding-left: .3em;
+
 }
 
 p {
-    padding: .1em;
     font-size: 1.5em;
     font-weight: bold;
-    padding-left: .5em;
 }
 
 
 ul {
     font-weight: bold;
     font-size: 1.1em;
+}
+
+.main-footer {
+     padding-top: 6em;
+}
+
+.list-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
