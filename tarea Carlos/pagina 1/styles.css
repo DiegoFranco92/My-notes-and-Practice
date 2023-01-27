@@ -1,0 +1,39 @@
+/* pagina  https://mir-s3-cdn-cf.behance.net/project_modules/1400/b876b092458615.5e4bf79de53bd.png */
+
+* {
+    box-sizing: border-box;
+}
+
+.main-header {
+    position: relative;
+    display: flex;
+}
+
+.logo-container {
+    position: absolute;
+    justify-content: center;
+
+}
+
+.logo {
+    position: absolute;
+    background-color: red;
+}
+
+.nav-bar {
+    position: absolute;
+
+}
+
+.title-container {
+    position: absolute;
+    align-items: center;
+}
+
+.subtitle-container {
+    position: absolute;
+}
+
+.header-button {
+    position: absolute;
+}
