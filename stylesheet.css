@@ -30,22 +30,26 @@ p {
 }
 
 
-ul {
+ul ul:hover {
     font-weight: bold;
     font-size: 1.1em;
-}
-
-
-.main-footer {
-    display: flex;
-    min-height: 95px;
-    justify-content: space-around;
-    align-items: center;
-    border: 1px solid red;
+    transform: scale(1.2);
 }
 
 .list-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.main-footer {
+    min-height: 155px;
+    border: 1px solid red;
+    margin-top: 60px;
+}
+
+
+.yt-iframe-example {
+    display: flex;
+    justify-content: center;
 }
