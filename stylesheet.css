@@ -2,8 +2,12 @@ body{
     background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
-h1,li,ul,p {
+h1,h2,li,ul,p {
     color: rgb(228, 227, 227);
+}
+
+.title-sandbox {
+    text-shadow: 6px 6px 7px rgb(112, 110, 110);
 }
 
 li {
@@ -48,8 +52,26 @@ ul ul:hover {
     margin-top: 60px;
 }
 
+.fav-vid-title {
+    font-family: 'Unbounded', normal;
+    text-shadow: 4px 4px 7px rgb(112, 110, 110);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.perspective {
+    font-family: 'Unbounded', normal; 
+    font-size: 50px;
+    text-shadow: 4px 4px 7px rgb(112, 110, 110);
+    text-decoration: underline;
+}
 
 .yt-iframe-example {
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
 }
+
