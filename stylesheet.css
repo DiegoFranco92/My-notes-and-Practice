@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+
 body{
     background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
@@ -25,6 +28,10 @@ h1 {
     align-items: center;
 }
 
+h2 {
+padding: 10px 10px;
+}
+
 p {
     font-size: 1.5em;
     font-weight: bold;
@@ -34,17 +41,29 @@ p {
 }
 
 
-ul ul:hover {
-    font-weight: bold;
-    font-size: 1.1em;
-    transform: scale(1.2);
-}
 
 .list-content {
     display: flex;
-    flex-direction: column;
+  flex-direction: column;
     align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  list-style-type: circle;
+}
+
+
 
 .main-footer {
     min-height: 155px;
